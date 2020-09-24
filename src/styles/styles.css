@@ -25,8 +25,8 @@ body {
 }
 
 .Main {
-  padding: 10px;
-  grid-template-columns: minmax(auto, 976px);
+  padding: 50px;
+  grid-template-columns: minmax(auto, 1176px);
   display: grid;
   justify-content: center;
 }
@@ -50,7 +50,7 @@ body {
 .Movies-card {
   text-decoration: none;
   box-shadow: 8px 14px 38px rgba(39,44,49,.06), 1px 3px 8px rgba(39,44,49,.03);
-  border-radius: 5px;
+  border-radius: 25px;
   margin: 0 0 20px 0;
   display: block;
   animation-duration: 2s;
@@ -64,14 +64,14 @@ body {
 }
 
 .Movies-card h2 {
-  font-size: 18px;
+  font-size: 8px;
   font-weight: 400;
   text-align: center;
 }
 
 .Movies-card h3 {
-  font-size: 18px;
-  font-weight: 400;
+  font-size: 22px;
+  font-weight: 300;
   text-align: left;
   margin: 20px;
 }

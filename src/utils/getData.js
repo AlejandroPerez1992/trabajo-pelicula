@@ -1,7 +1,8 @@
-const API = `http://api.themoviedb.org/3/movie/popular?api_key=49772f8f87524b9e90b4e37032d5a6a9`;
+
+const API = `http://api.themoviedb.org/3/movie/popular?api_key=49772f8f87524b9e90b4e37032d5a6a9&page=`;
 
     const getData = async (id) => {
-        const apiURL = id ? `${API}` : API;
+        const apiURL = id ? `${API}${id}` : API;
         try {
             const response = await fetch(apiURL);
             const data = await response.json();
@@ -12,3 +13,4 @@ const API = `http://api.themoviedb.org/3/movie/popular?api_key=49772f8f87524b9e9
 };
 
 export default getData;
+
