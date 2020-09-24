@@ -13,7 +13,7 @@ deploy:
     edge: true,
     skip-cleanup: true
     keep-history: true
-    local-dir: dist/
+    local-dir: Clases-ProgramacionAvanzada\Rp-4
     github-token: $GITHUB_TOKEN
     target-branch: gh-pages
     commit_message: "Deploy Release"
