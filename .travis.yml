@@ -11,7 +11,7 @@ script:
     - yarn build
 
 before_deploy:
-  - cd $TRAVIS_BUILD_DIR
+  - cd $Rp4
 
 repo: AlejandroPerez1992/Spa-Babel-Webpack
 
