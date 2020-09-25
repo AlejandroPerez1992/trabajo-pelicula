@@ -14,7 +14,6 @@ deploy:
     skip-cleanup: true
     keep-history: true
     github-token: $GITHUB_TOKEN
-    local-dir: Rp4/
     target-branch: gh-pages
     commit_message: "Deploy Release"
     on:
