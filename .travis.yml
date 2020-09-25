@@ -1,5 +1,4 @@
 language: node_js
-os: windows
 cache:
     directories:
         - ~/.npm
@@ -9,20 +8,13 @@ git:
     depth: 3
 script:
     - yarn build
-
-before_deploy:
-  - cd $Rp4
-
-repo: AlejandroPerez1992/Spa-Babel-Webpack
-
-github_url: https://github.com/AlejandroPerez1992/Spa-Babel-Webpack
 deploy:
     provider: pages
     edge: true,
     skip-cleanup: true
     keep-history: true
-    local-dir: Rp4/
     github-token: $GITHUB_TOKEN
+    local-dir: Rp4/
     target-branch: gh-pages
     commit_message: "Deploy Release"
     on:
