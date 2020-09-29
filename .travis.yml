@@ -1,7 +1,11 @@
 language: node_js
+
+os:
+    - wondows
+
 cache:
     directories:
-    - ~/.npm
+    - $HOME/.npm
 node_js:
     - '12'
 git:
